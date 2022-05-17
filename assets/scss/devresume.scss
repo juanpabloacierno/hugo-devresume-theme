@@ -188,6 +188,15 @@ a.resume-link {
 	color: #fb866a;
 }
 
+// Printable version
+@media print {
+
+    .resume-aside {
+	    border-left: 0;
+    }
+}
+
+
 // Medium devices (tablets, less than 992px)
 @media (max-width: 991.98px) {
 
